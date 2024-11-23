@@ -1,0 +1,33 @@
+{
+  "name": "wade-app",
+  "productName": "wade-app",
+  "version": "0.0.1",
+  "description": "The All in One App",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "echo \"No linting configured\""
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^7.5.0",
+    "@electron-forge/maker-deb": "^7.5.0",
+    "@electron-forge/maker-rpm": "^7.5.0",
+    "@electron-forge/maker-squirrel": "^7.5.0",
+    "@electron-forge/maker-zip": "^7.5.0",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.5.0",
+    "@electron-forge/plugin-fuses": "^7.5.0",
+    "@electron/fuses": "^1.8.0",
+    "electron": "33.2.0"
+  },
+  "keywords": [],
+  "author": "The Wade",
+  "license": "MIT",
+  "dependencies": {
+    "ejs-electron": "^3.0.0",
+    "electron-squirrel-startup": "^1.0.1",
+    "rpmbuild": "^0.0.23"
+  }
+}
